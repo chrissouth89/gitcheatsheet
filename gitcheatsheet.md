@@ -42,8 +42,6 @@ Here is a table of our commonly used git commands that we've used in this course
 | git |   log    |          --oneline           |                              Shows a log of commits of a repo (--oneline shows a truncated message)_`q` to exit_                               |
 | git |  status  |                              |                                        Shows the state of files in a repo (untracked, modified, staged)                                        |
 
-[Link to our wiki with a more complete list of git commands](https://github.com/ga-students/wdi-remote-matrix/wiki/Git-Cheatsheet)
-
 Note: `fork` is not on this list because `fork` is not a git command; it is github-specific for copying a repository on github to a new location on github.
 
 ### Git VCS - Branches and Merging
