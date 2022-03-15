@@ -44,6 +44,25 @@ Here is a table of our commonly used git commands that we've used in this course
 
 Note: `fork` is not on this list because `fork` is not a git command; it is github-specific for copying a repository on github to a new location on github.
 
+### Generating a new GitHub repo
+
+Open GitHub and create a new repo.
+After you create a new repo in GitHub, open your terminal and cd into the folder you are trying to link to github.
+
+Step 1) Inside your project folder you will initialize git by typing `git init` in the terminal that has the project folder open.
+
+Step 2) Stage all of the changed files to using the `git add .` command.
+
+Step 3) Commit all of the staged files using the `git commit -m ""` command typing whatever commit message you want inside the double quotes.
+
+Step 4) Change your branch to main using the`git branch -M main` command.
+
+Step 5) Add your Git repo to your project using `git remote add origin "your repo link here"` do not use the "" and copy the link from the SSH tab of the GitHub repo to use your SSH key we previously added.
+
+Step 6) Push your code from your computer to GitHub using `git push -u origin main`
+
+Step 7) Checkout your new Git repo in your browser and show off your code!
+
 ### Git VCS - Branches and Merging
 
 Git is a VCS (Version Control System). There are a few popular ones, but git ends up being a top choice because of its branching and merging feature.
